@@ -4,3 +4,5 @@ Chronos est un site pour un festival de musique techno sur Paris. Ce festival fi
 J'ai supprimé ta ligne à la con
 
 simon test
+
+Ca c'est pas très gentil
