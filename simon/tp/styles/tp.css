@@ -1,0 +1,134 @@
+/*******GENERAL****/
+body{
+	font-family: verdana;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/******CONTENEUR***/
+.conteneur{
+	width: 800px;
+	height:520px;
+	margin:10px auto;
+}
+
+
+/*****HEADER******/
+.header{
+
+	background-image: url(../images/banniere.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-color: #E5E5E5;
+	padding: 15px 0;
+	text-align: right;
+}
+
+.header img{
+	margin: 0 10px;
+}
+
+/*****MENU HORIZONTAL******/
+
+.menuhorizontal{
+	background-color: black;
+	color:white;
+	text-align: right;
+	margin:0;
+	padding: 2px;
+}
+
+.menuhorizontal li a{
+	color:white;
+}
+
+.menuhorizontal li{
+	display:inline;
+}
+
+
+/*****MENU VERTICAL******/
+
+.menuvertical{
+	display: inline-block;
+	width:20%;
+	vertical-align: top;
+	background-image: url(../images/fondmenu.jpg);
+	background-repeat: no-repeat;
+	height: 390px;
+	margin:0;
+	list-style-type: none;
+	padding:50px 0 100px 15px;
+}
+
+.menuvertical li a{
+	color:white;
+	display:block;
+	height:25px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+
+/*****CONTENU GLOBAL******/
+
+.contenuglobal{
+	display: inline-block;
+	width:75%;
+}
+
+.contenuglobal h2{
+	font-variant: small-caps;
+	font-size: 20px;
+	color:green;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #FC0;
+}
+
+.contenuglobal>h3:nth-of-type(1){
+	color:navy;
+	font-size: 15px;
+
+}
+
+.contenuglobal .encart{
+	float:right;
+	/*
+	background-image: url(../images/posthaut.png) ;
+	background-repeat: no-repeat;
+	*/
+	background:url(../images/posthaut.png) no-repeat;
+	width: 250px;
+	padding-top: 30px;
+
+}
+
+.contenuglobal .encart h3{
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.contenuglobal .encart ul{
+	background:url(../images/postbas.png);
+	padding-bottom: 25px;
+}
+
+.contenuglobal .encart ul li{
+	list-style-image: url(../images/postpuce.png);
+}
+
+.contenuglobal .encart ul li a{
+	color: black;
+}
+
+.contenuglobal .encart ul li a:hover {
+	text-decoration: underline;
+}
+
+
+
