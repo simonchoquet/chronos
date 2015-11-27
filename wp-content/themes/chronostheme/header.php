@@ -4,6 +4,10 @@
         <meta charset="<?php bloginfo('charset'); ?>">
         <title><?php bloginfo('name'); ?></title>
 
+        <?php
+            wp_head();
+        ?>
+
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
