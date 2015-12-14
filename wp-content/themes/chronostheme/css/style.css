@@ -1,12 +1,95 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
 body,
 code {
-    background-color: #000;
+    background-color: #101010;
 }
 
 p {
     color: #FFF;
 }
 
-.fergcorp_countdownTimer_timeUnit {
-    color: #0091cd;
+nav>div {
+    height: 70px;
+}
+
+nav>div>ul>li {
+    list-style: none;
+    display: inline-block;
+    margin: 21px 5px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border-color: grey;
+    border-radius: 1px;
+    height: inherit;
+    max-width: 25%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-default.active,
+.btn-default.active:focus,
+.btn-default.focus.active,
+.btn-default.active:hover {
+    background-color: #d03b3f;
+    color: #fff;
+    border-color: #d03b3f;
+}
+
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:hover {
+    color: #fff;
+    background-color: dimgrey;
+    border-color: #8d8d8d;
+}
+
+.social {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.social>a {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: #8d8d8d;
+}
+
+.social>a:hover {
+    color: #d03b3f;
+    text-decoration: none;
+}
+
+.head {
+    border-bottom: 1px solid grey;
+}
+
+h1 {
+    color: #d03b3f;
+    font-size: 120px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #d03b3f;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h3 {
+
 }

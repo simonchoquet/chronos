@@ -3,6 +3,7 @@
  * Template Name: Mentions Légales
  */
 get_header();
+get_sidebar();
 ?>
 <h2>Mentions Légales</h2>
 <?php
