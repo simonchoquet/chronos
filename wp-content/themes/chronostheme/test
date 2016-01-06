@@ -1,0 +1,21 @@
+<nav class="row head">
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <a href="<?php bloginfo('url'); ?>"><img class="" height="70px" alt="Brand" src="<?php bloginfo('template_url'); ?>/img/logo-v3-medium.png"></a>
+    </div>
+    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 menu-center">
+        <a href="" class="btn btn-default">Programmation</a><!--
+        --><a href="<?php bloginfo('url'); ?>/billetterie" class="btn btn-default active">Billetterie</a><!--
+        --><a href="" class="btn btn-default">Acutalité</a><!--
+        --><a href="" class="btn btn-default">Presse & Pro</a><!--
+        --><a href="" class="btn btn-default">Infos Pratiques</a><!--
+        --><a href="<?php bloginfo('url'); ?>/wp-login.php?action=register" class="btn btn-default">Register</a><!--
+        --><span class="btn btn-default"><?php wp_loginout() ?></span>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 social">
+        <a href=""><i class="ti ti-facebook"></i></a>
+        <a href=""><i class="ti ti-twitter-alt"></i></a>
+        <a href=""><i class="ti ti-instagram"></i></a>
+        <a href=""><i class="ti ti-youtube"></i></a>
+        <a href=""><i class="ti ti-soundcloud"></i></a>
+    </div>
+</nav>

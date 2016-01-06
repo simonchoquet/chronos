@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
-        <title><?php bloginfo('name'); ?></title>
+        <title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
 
         <?php
             wp_head();
@@ -11,6 +11,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/themify-icons.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 
         <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
